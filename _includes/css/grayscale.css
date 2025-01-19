@@ -159,7 +159,7 @@ a:focus {
     font-size: 18px;
 }
 
-.preludemeatpotatoes-section {
+.preludemeatpotatoes {
     display: table;
     width: 100%;
     height: auto;
@@ -265,18 +265,6 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
-}
-
-.preludemeatpotatoes-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(./photos/Eriogonum_coloradense.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 #map {
