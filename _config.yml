@@ -1,6 +1,6 @@
 # Site settings
 title: Grayscale
-email: your-email@domain.com
+email: reedbenkendorf2021@u.northwestern.edu
 url: https://sagesteppe.github.io/DataVizGallery
 description: "Some data visualizations which showcase my style. I try to create novel figures which catch a viewers attention, convey information, and suggest future directions, without being distracting. A figure is not complete until everything which can be stripped from it is stripped from it."
 
@@ -10,12 +10,14 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Your Website
+footer: Reed Benkendorf
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
     url: https://github.com/sagesteppe
+  - title: linkedin
+    url: https://www.linkedin.com/in/reed-benkendorf-1984441b5
 
 # Build settings
 markdown: kramdown
