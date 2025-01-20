@@ -89,7 +89,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #093145;
+    color: #9A2617;
 }
 
 .navbar-custom .nav li.active {
@@ -137,7 +137,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: #264653;
     background: url(./photos/Bellview-gs.jpg) no-repeat bottom center ;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
@@ -388,7 +388,7 @@ body {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(./img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
