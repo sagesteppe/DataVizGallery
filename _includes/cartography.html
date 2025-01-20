@@ -6,15 +6,43 @@
                 <h3>The Greatest Lies every told</h3>
                 <p>No method of data visualization has fallen so far from grace as maps. Despite the widespread admonishment of the medium, so strong are their powers, that I guarantee you 99% of people still think Europe is about as big as Africa, and would pick the wrong route to fly from New York to Hong Kong. A lie with a map has big implications. Here are some maps made to be as accurate to reality as possible, while still conveying my point. </p>
                 <img src="{{site.url}}/figures/elevation_contour_drought.png" width="500" height="500"  class="center" style="display: block; margin: auto;" /> 
-                <p>The target audience for this figure were outdoor recreationalists in Western Colorado; skiers, mountain bikers, and white water rafters. These people know the content well - where does the water fall? But could use a litle direction to truly see how great of a different exists between the highest alpine and the red rock deserts.</p>
+                <p>Government agencies don't come by friends for free these days, and it's very good to keep the ones you have. This plot was created for an outreach event where it was meant to be displayed BIG, I don't recall the specs but like REAL BIG. We were working on a report and decided to two birds one stone it, and give ourselves a fun challenge... Could we create something that looked good at both 1x1" and many by many feet?</p>
+                <p>An astute observer of natural lands in the West will realize that the quality of land increases with increases in elevation. 
+                Some folks believe this is related to management agencies, but realistically it relates to the frequency and intensity of precipitation events; being predictable is good for plants.
+                Here we showcase the change in the amount of annual precipitation along a gradient running from the red rock deserts of Wester Colorado (Moab misses the map by about a dozen miles), to the peaks of the San Juans.
+                The target audience for this figure were outdoor recreationalists in Western Colorado; skiers, mountain bikers, and white water rafters. 
+                These people know the content well - where does the water fall?
+                But could use a litle reminder of the challenges we face.
+                This map is of course, made using a palette which nods to psychadelia, and the contour lines which were based on the precip amounts NOT elevation - although those are just about perfectly collinear.</p>
                 <br>
                 <img src="{{site.url}}/figures/Lanphere.png" width="590" height="472"  class="center" style="display: block; margin: auto;" />  
-                <p>A supplmemental figure made for a colleague's publication at the 11th hour. The target audience are truly fantastic old school professors of natural history, e.g. entomology, botany, environmental science etc. This map is a detail map of Arcata, CA (the overview map with technical details not featured), with subdued vintage pastels as an ode to the well loved hippie mecca.</p>
+                <p>A supplmemental figure made for a colleague's publication at the 11th hour. 
+                As I recall we were meant to illustrate that while there was moderate geographic distance between these two groups of sites (the Ma-l'el sequence and others), they were in a contigious environmental setting.
+                This is a two part figure, the first part is an overview map which contains pairwise distances between these sites - and is not shown. 
+                It's quite dry and effective for submission to a journal as a supplemental figure. 
+                This second figure on the other hand...</p>
+                <p>This second figure was quite fun! 
+                I had an existing random forest classifier laying around for a subsequent classification, and had some gridded output to play around with. 
+                The area mapped is a funky little college town called Arcata which has these cute colourful craftsman homes, in all these bright pastel seven-sisters colours, and I thought that would be a fun theme! 
+                The audience for this map was largely a professor at the university in said town how was a little skeptical of a few their results. </p>
                 <br>
                 <img src="{{site.url}}/figures/siteMaps.resized.png" width="500" height="500"  class="center" style="display: block; margin: auto;" />
-                <p>A supplemental figure for one of my publications. The audience for this figure are young hungry nerds who feel as comfortable in a tent as flashing linux onto bare metal and sequencing genomes. Rich in detail, emphasizing a faux pau amongst nerds of pie charts - which here have informative sizes.</p>
+                <p>
+                  A supplemental figure for one of my publications. The audience for this figure are young hungry nerds who feel as comfortable in a tent as flashing linux onto bare metal and sequencing genomes. Rich in detail, emphasizing a faux pau amongst nerds of pie charts - which here cover the area's which each sampling event was conducted over. 
+                  </p>
                 <img src="{{site.url}}/figures/FQI-plots-resized.png" width="500" height="500"  class="center" style="display: block; margin: auto;" />
-                <p> The audience for this figure is overwhelmingly female, ages30 to seniors, while still needing to be clearly a part of an official - somewhat bleak- government report. It displays two strongly collinear metrics of habitat quality as the size and fill of points associated with ground control plots.</p>
+                <p> While the Bureau of Land Management (see XXX for details) has several official methods for quantifying land quality, a few alternative approaches exist. 
+                One which I am partial to is the use of Floristic Quality Indicators (FQI), this method uses plant species as indicators of habitat quality. 
+                The idea is that some plants can only grow in very high quality areas while others are less picky. 
+                The FQI values are assigned by a panel of experts in a delphi survey like process to each species in an area, and then more or less a few simple averages can be calculated from plots where all plant species are identified. </p>
+                
+                <p>The approaches officially sanctioned by the BLM have one big... problem... 
+                They rely on categorical classifications which cannot be smoothed out spatially in a manner any experts will agree on in the next decade; hence they cannot produce a map which can become an action plan. 
+                FQI avoids those complications. 
+                In order to spatially predict the quality of habitat across a BLM field office, all we need to do is use each plot as a response, and using some GLM's with dredging and eventual ensembling of models predict our response across a smoothed surface (not pictured - unless you read the full report), et voila!
+                The main audience for this figure are both professional botanists, largely empoyed by different administrative units, botany professors, and enthusiasts, an overwhelmingly female demographic. 
+                While that's the audience, this figure still had to maintain the sensibilities of being in a dry and boring government report.
+                It displays two strongly collinear metrics of habitat quality as the size and fill of points associated with ground control plots.</p>
             </div>
         </div>
     </section>
