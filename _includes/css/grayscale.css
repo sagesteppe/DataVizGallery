@@ -363,7 +363,7 @@ footer p {
 
 img::selection {
     background: 0 0;
-    border-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 img::-moz-selection {
