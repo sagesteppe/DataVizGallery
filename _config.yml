@@ -2,8 +2,7 @@
 title: Data Visualization Gallery
 email: reedbenkendorf2021@u.northwestern.edu
 url: https://sagesteppe.github.io/DataVizGallery
-description: "Some data visualizations which showcase my style. I try to create novel figures which catch a viewers attention, convey information, and suggest future directions, without being distracting. A figure is not complete until everything which can be stripped from it is stripped from it."
-
+description: "I strive to create figures which are just novel enough they catch a viewers attention, where they can have one foot in comfort and another stepping eagerly across a precipice. A figure is not meant to the center of attention, that role is for the speaker or the writer. A figure is meant to be a powerful tool for a speaker to use to convey and convince others of their opinions, especially when proposing something new which may seem uncomfortable for the audience. A figure is most powerful when it foreshadows a solution, allowing our audience to come to the same conclusion as our speaker just before they speaker utters their thoughts out loud to them.  No figure is complete until everything which can be stripped away from it has been stripped away from it." 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#070707'
