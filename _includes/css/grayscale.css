@@ -156,7 +156,8 @@ a:focus {
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 900;
     color: #AD2A1A;
 }
 
@@ -387,7 +388,7 @@ body {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/photos/CapitalReef-gs.jpg) no-repeat center center scroll;
+    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
