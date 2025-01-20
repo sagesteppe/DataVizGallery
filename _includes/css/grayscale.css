@@ -89,7 +89,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #093145;
 }
 
 .navbar-custom .nav li.active {
@@ -382,4 +382,17 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
+.download-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/photos/CapitalReef-gs.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 
