@@ -137,7 +137,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #BCA136;
+    color: #fff;
     background: url(./photos/Bellview-gs.jpg) no-repeat bottom center ;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
@@ -157,6 +157,7 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    color: #AD2A1A;
 }
 
 .preludemeatpotatoes {
