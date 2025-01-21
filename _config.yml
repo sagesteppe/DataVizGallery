@@ -5,8 +5,8 @@ url: https://sagesteppe.github.io/DataVizGallery
 description: "I aim to create figures which are just novel enough they catch a viewers attention, allowing them to keep one foot in comfort while the steps eagerly across a precipice. A figure is not meant to the center of attention, that role is for the speaker or the writer. A figure is meant to be a powerful tool for a speaker to use to convey and convince others of their opinions, especially when proposing something new which may seem uncomfortable for the audience. A figure is most powerful when it foreshadows a solution, allowing our audience to come to the same conclusion as our speaker just as their thoughts are spoken out loud to them.  No figure is complete until everything which can be stripped away from it has been stripped away from it." 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: 2e2d2d
-  links: 219ab3
+  primary-dark: '2e2d2d'
+  links: '219ab3'
 
 # Footer settings
 footer: Reed Benkendorf
